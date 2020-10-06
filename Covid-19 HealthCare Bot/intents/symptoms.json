@@ -1,0 +1,51 @@
+{
+  "id": "cfba4303-5315-49be-90fa-990b9f73aafb",
+  "name": "Symptoms",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+          {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Symptoms",
+          "subtitle": "https://g.co/kgs/SJ8QdQ"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Go To",
+          "replies": [
+            "Main Menu",
+            "Exit"
+          ]
+        },
+
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

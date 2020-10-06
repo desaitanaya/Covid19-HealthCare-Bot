@@ -1,0 +1,39 @@
+[
+  {
+    "id": "b9597c9b-3c51-4765-993b-c816dde683c6",
+    "data": [
+      {
+        "text": "bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "636b7e5e-db57-4059-8f4c-603014cae2d7-77b242db",
+    "data": [
+      {
+        "text": "Exit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae02949d-6e5f-460c-a03b-9176b8855126-77b242db",
+    "data": [
+      {
+        "text": "end",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

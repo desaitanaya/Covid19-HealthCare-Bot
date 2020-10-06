@@ -1,0 +1,27 @@
+[
+  {
+    "id":"b98616b7-47e4-4ec0-a23c-83d0fed18565-77b242db",
+    "data": [
+      {
+        "text": "Symptoms for covid-19",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+
+  {
+    "id":"c88a4763-4237-4c8c-8fda-4faf65d1f0eb-77b242db",
+    "data": [
+      {
+        "text": "Symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

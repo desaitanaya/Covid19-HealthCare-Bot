@@ -1,0 +1,51 @@
+{
+  "id": "1d1d6a1b-9532-4cbc-88b6-33000eb5bf93",
+  "name": "help_desk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+         {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "You can email to ncov2019@gov.in | Here is Indian Govt Official helpdesk",
+          "subtitle": "https://www.mohfw.gov.in/pdf/coronvavirushelplinenumber.pdf"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Is there anything to which I can help ?",
+          "replies": [
+            "Main Menu",
+            "Exit"
+          ]
+        },
+
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Official helpdesk -https://www.mohfw.gov.in/pdf/coronvavirushelplinenumber.pdf"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

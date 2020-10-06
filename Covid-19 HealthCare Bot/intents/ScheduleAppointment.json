@@ -1,0 +1,71 @@
+{
+  "id": "bcdd08b7-2c9d-4492-9454-c931ee155a0e",
+  "name": "Schedule Appointment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "413ab3f1-4658-4e34-8192-3f3242adcdd7",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time would you like to come in?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "4e02224c-9295-44e6-abfa-e423fa4cc6f8",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What date?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "fe2c10df-f823-4b60-adee-3cf76379b775",
+          "required": true,
+          "dataType": "@AppointmentType",
+          "name": "AppointmentType",
+          "value": "$AppointmentType",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What services are you looking to get? DMV offers Driver license and vehicle registration services."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You are all set for you $AppointmentType on $date at $time, see you then!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548121047,
+  "fallbackIntent": false,
+  "events": []
+}

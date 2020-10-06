@@ -1,0 +1,52 @@
+{
+  "id": "a057ab51-c8b2-417b-853c-cc254e8bc853",
+  "name": "district_report",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+         {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Indian District Dtailed Report👇🏻👇🏻",
+          "subtitle": "https://www.mohfw.gov.in/pdf/Districtreporting429.pdf"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Do you want to ask some more? Kindly choose 👆  option 👇👇👇",
+          "replies": [
+            "Main Menu",
+            "Cases on Maps",
+            "Exit"
+          ]
+        },
+
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Indian District wise 👉🏻👉🏻👉🏻 - https://www.mohfw.gov.in/pdf/Districtreporting429.pdf"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

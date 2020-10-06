@@ -1,0 +1,53 @@
+{
+  "id": "13afcb7d-3ecb-47a8-975e-3c96a35fca77",
+  "name": "social_follow",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+         {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "FAQ",
+          "subtitle": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses#:~:text=symptoms\n"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Do you know ? 👂🏻👂🏻",
+          "replies": [
+            "symptoms",
+            "Its precautions"
+          ]
+        },
+
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "FAQ- https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses#:~:text=symptoms\n"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
